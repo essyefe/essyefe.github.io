@@ -14,11 +14,11 @@ sejam bem-vindos ao repositorio do portfolio do Essyefe, nesse portfolio eu post
 para acessar o projeto acesse : [Clique aqui]()
 
 ## Pré-visualização :
-<img src="../Essyefe/project/images/Index-essyefe.png">
+<img src="project/images/Index-essyefe.png">
 
-<img src="../Essyefe/project/images/projetos-essyefe.png">
+<img src="project/images/projetos-essyefe.png">
 
-<img src="../Essyefe/project/images/posts-essyefe.png">
+<img src="project/images/posts-essyefe.png">
 
-<img src="../Essyefe/project/images/techs-essyefe.png">
+<img src="project/images/techs-essyefe.png">
 
