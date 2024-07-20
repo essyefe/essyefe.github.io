@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------------- Navbar ----------------------- */
+
+.box-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+    border-bottom: 2px solid rgb(209, 209, 209);
+}
+
+.box-logo-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+    width: 20%;
+    height: 80%;
+}
+
+.link-logo-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.logo-navbar {
+    color: black;
+    font-size: 2.5vmin;
+    transition: 1s;
+}
+
+.logo-navbar:hover {
+    font-weight: 900;
+    color: rgb(0, 153, 255);
+}
+
+.img-logo-navbar {
+    width: 100%;
+    height: 100%;
+}
+
+.box-itens-navbar {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5%;
+    align-items: center;
+}
+
+.item-navbar {
+    font-size: 2vmin;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.item-navbar:hover {
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+/* ----------------------- Main ----------------------- */
+
+.box-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    /*border: 5px solid red;*/
+}
+
+.title {
+    width: 95%;
+    /*border: 5px solid green;*/
+    font-weight: 800;
+}
+
+.box-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    justify-content: space-between;
+    width: 95%;
+    height: 1000px;
+    /*border: 5px solid green;*/
+}
+
+.box-tech {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 119, 255);
+    width: 100%;
+    height: 65vmin;
+    border-radius: 5px;
+}
+
+/* ----------------------- @media ----------------------- */
+
+@media (max-width : 600px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 5vmin;
+        padding-bottom: 20px;
+    }
+
+    .img-tech {
+        width: 10%;
+    }
+}
