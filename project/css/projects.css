@@ -82,7 +82,7 @@ a {
 }
 
 .item-navbar:hover {
-    background-color: rgb(0, 89, 255);
+    background-color: rgb(0, 132, 255);
     color: white;
 }
 
@@ -125,7 +125,7 @@ a {
 }
 
 .card-project:hover {
-    border-left: 5px solid blue;
+    border-left: 5px solid rgb(0, 132, 255);
 }
 
 .img-project {
